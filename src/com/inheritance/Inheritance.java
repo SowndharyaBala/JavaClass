@@ -39,3 +39,9 @@ public class Inheritance {
 	}
 
 }
+
+class Ebike extends Bike{
+	public static void display() {
+		System.out.println(name + " " + yr);
+	}
+}

@@ -1,11 +1,15 @@
 package com.practice;
 
-import java.io.FileReader;
+//import java.io.FileReader;
 import java.io.IOException;
+
+
 
 public class Exception_Handling1 {
 
 	public static void main(String[] args) {
+		
+		
 //		try {
 //			String s = null;
 //			System.out.println(s.toLowerCase());
@@ -28,14 +32,14 @@ public class Exception_Handling1 {
 		
 
 		//checkAge(15);
-		
-		try {
-			readFile();
-		}catch(IOException e) {
-			System.out.println(e);
-		}
+//		
+//		try {
+//			readFile();
+//		}catch(IOException e) {
+//			System.out.println(e);
+//		}
 
-	}
+	
 	
 //	public static void checkAge(int age) {
 //		 if(age < 17) {
@@ -45,11 +49,16 @@ public class Exception_Handling1 {
 //		 }
 //	}
 	
-	public static void readFile() throws IOException{
-		FileReader fr = new FileReader("java.txt");
-		fr.read();
-		fr.close();
+//	public static void readFile() throws IOException{
+//		FileReader fr = new FileReader("java.txt");
+//		fr.read();
+//		fr.close();
+//		
+//	}
 		
+	
+			
+}
 	}
 
-}
+
